@@ -23,7 +23,7 @@ namespace WebApi.Controllers
         public async Task<IActionResult> GetList([FromQuery] PageRequest pageRequest)
         {
             GetListBrandQuery query = new() { PageRequest = pageRequest };
-            GetListResponse<GetListBrandListItemDto> response = await Mediator.Send(query);
+            GetListResponse<GetListBrandListItemDto> response = await Mediator.Send(query);//
             return Ok(response);
 
         }

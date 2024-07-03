@@ -271,22 +271,22 @@ namespace Core.Persistence.Repositories
             throw new NotImplementedException();
         }
 
-        TEntity IRepository<TEntity, TEntityId>.UpdateAsync(TEntity entity)
+        public TEntity Update(TEntity entity)
         {
             throw new NotImplementedException();
         }
 
-        ICollection<TEntity> IRepository<TEntity, TEntityId>.UpdateRangeAsync(ICollection<TEntity> entities)
+        public ICollection<TEntity> UpdateRange(ICollection<TEntity> entities)
         {
             throw new NotImplementedException();
         }
 
-        TEntity IRepository<TEntity, TEntityId>.DeleteAsync(TEntity entity, bool permanent)
+        public TEntity Delete(TEntity entity, bool permanent = false)
         {
             throw new NotImplementedException();
         }
 
-        ICollection<TEntity> IRepository<TEntity, TEntityId>.DeleteRangeAsync(ICollection<TEntity> enentitiestity, bool permanent)
+        public ICollection<TEntity> DeleteRange(ICollection<TEntity> enentitiestity, bool permanent = false)
         {
             throw new NotImplementedException();
         }

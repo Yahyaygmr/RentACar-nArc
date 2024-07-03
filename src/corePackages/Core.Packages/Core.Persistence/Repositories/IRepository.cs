@@ -47,9 +47,9 @@ namespace Core.Persistence.Repositories
             CancellationToken cancellationToken = default);
         TEntity Add(TEntity entity);
         ICollection<TEntity> AddRangeAsync(ICollection<TEntity> entities);
-        TEntity UpdateAsync(TEntity entity);
-        ICollection<TEntity> UpdateRangeAsync(ICollection<TEntity> entities);
-        TEntity DeleteAsync(TEntity entity, bool permanent = false);
-        ICollection<TEntity> DeleteRangeAsync(ICollection<TEntity> enentitiestity, bool permanent = false);
+        TEntity Update(TEntity entity);
+        ICollection<TEntity> UpdateRange(ICollection<TEntity> entities);
+        TEntity Delete(TEntity entity, bool permanent = false);
+        ICollection<TEntity> DeleteRange(ICollection<TEntity> enentitiestity, bool permanent = false);
     }
 }

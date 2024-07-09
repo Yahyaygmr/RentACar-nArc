@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Persistence", "Core.Persistence\Core.Persistence.csproj", "{8A96FF19-CCD0-446A-BFB8-E633CC079071}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Application", "Core.Application\Core.Application.csproj", "{1B106FFA-40F1-49C5-9384-C8D752C3982B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Application", "Core.Application\Core.Application.csproj", "{1B106FFA-40F1-49C5-9384-C8D752C3982B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.CrossCuttingConcerns", "Core.CrossCuttingConcerns\Core.CrossCuttingConcerns.csproj", "{95C6E7A2-BE3C-4970-91B6-90DA78497968}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1B106FFA-40F1-49C5-9384-C8D752C3982B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B106FFA-40F1-49C5-9384-C8D752C3982B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B106FFA-40F1-49C5-9384-C8D752C3982B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C6E7A2-BE3C-4970-91B6-90DA78497968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C6E7A2-BE3C-4970-91B6-90DA78497968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C6E7A2-BE3C-4970-91B6-90DA78497968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C6E7A2-BE3C-4970-91B6-90DA78497968}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

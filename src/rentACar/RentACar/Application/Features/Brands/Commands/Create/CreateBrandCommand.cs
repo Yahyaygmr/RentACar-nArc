@@ -17,10 +17,11 @@ namespace Application.Features.Brands.Commands.Create
     {
         public string Name { get; set; }
 
-        public string CacheKey => throw new NotImplementedException();
+        public string CacheKey => "";
 
-        public bool BypassCache => throw new NotImplementedException();
+        public bool BypassCache => false;
 
+        public string? CacheGroupKey => "GetBrands";
         public class CreateBrandCommandHandler : IRequestHandler<CreateBrandCommand, CreatedBrandResponse>
         {
             private readonly IBrandRepository _brandRepository;

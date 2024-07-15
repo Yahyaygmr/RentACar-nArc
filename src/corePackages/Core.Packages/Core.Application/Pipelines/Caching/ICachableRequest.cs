@@ -10,5 +10,6 @@ public interface ICachableRequest
 {
     string CacheKey { get; }
     bool BypassCache { get; }
+    public string? CacheGroupKey { get; set; }
     TimeSpan? SlidingExpiration { get; }
 }

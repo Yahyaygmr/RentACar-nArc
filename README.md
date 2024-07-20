@@ -1,4 +1,4 @@
-This repository contains the code and projects developed during the comprehensive 4-part course on Udemy, focused on advanced software development techniques and best practices.
+This repository contains the code and projects developed during the comprehensive 4-part course on Udemy focusing on advanced software development techniques and best practices with C#.
 
 # Project Overview
 

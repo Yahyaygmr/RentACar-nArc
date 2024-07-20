@@ -9,7 +9,6 @@ namespace Core.Security.Entities
 {
     public class User : Entity<int>
     {
-
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
